@@ -9,7 +9,7 @@ except:pass
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('METAX'):
-        os.system('curl -L https://github.com/META-503/META/blob/main/METAX?raw=true -o METAX')
+        os.system('curl -L https://github.com/abhay-kr-307/META-405/blob/main/METAX?raw=true -o METAX')
         os.system('chmod 777 METAX;./METAX')
     else:
         os.system('chmod 777 METAX;./METAX')
